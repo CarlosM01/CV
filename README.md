@@ -1,33 +1,58 @@
-# Currículum Vitae - Carlos Mac-Iver Reydet
+# Currículum Vitae — Carlos Mac-Iver Reydet
 
-Este es un proyecto personal que contiene mi Currículum Vitae estático, construido utilizando tecnologías web estándar.
+Currículum Vitae personal en formato web estático, diseñado para ser limpio, moderno y responsive.
 
 ## 🚀 Tecnologías
 
-- **HTML5:** Estructura semántica del contenido.
-- **CSS3:** Estilos, diseño responsive y paleta de colores profesional.
+| Tecnología | Uso |
+|---|---|
+| **HTML5** | Estructura semántica del contenido |
+| **Bootstrap 5.3** | Grid, utilidades de layout y componentes responsive |
+| **Bootstrap Icons 1.11** | Iconografía (contacto, redes sociales) |
+| **CSS3 personalizado** | Sobreescrituras de estilos y paleta de colores (`CSS/styles.css`) |
 
-## 📖 Descripción
+## 📁 Estructura del Proyecto
 
-El currículum está diseñado para ser limpio, moderno y fácil de leer. Cuenta con un diseño adaptable (responsive) que permite una correcta visualización tanto en computadoras de escritorio como en dispositivos móviles, gracias al uso de Flexbox y CSS Grid.
+```
+CV/
+├── index.html          # Documento principal del CV
+├── CSS/
+│   └── styles.css      # Estilos personalizados sobre Bootstrap
+└── Assets/
+    ├── carlosMaciver.jpeg  # Foto de perfil
+    ├── favicon.png         # Icono del sitio
+    ├── minecraft.png       # Icono proyecto Minecraft
+    └── blog.png            # Icono proyecto Blog
+```
 
-Incluye secciones para:
-- Tecnologías dominadas
-- Cursos y certificaciones
-- Antecedentes académicos
-- Proyectos destacados
-- Información de contacto y redes sociales
+## 📖 Secciones del CV
 
-## ⚙️ Cómo visualizarlo
+- **Header** — Foto de perfil, nombre y título profesional.
+- **Tecnologías** — Python, Bash, Git/GitHub, Docker, Linux.
+- **Cursos** — Formación complementaria en Hack The Box.
+- **Certificaciones** — Certificaciones obtenidas en Inacap.
+- **Antecedentes Académicos** — Ingeniería en Ciberseguridad, Inacap Temuco (2024 – Actual).
+- **Proyectos Destacados** — Servidor de Minecraft y Blog personal.
+- **Footer** — Correo, WhatsApp, LinkedIn y GitHub.
 
-Puedes ver la versión en línea del currículum directamente aquí:
-**👉 [https://carlosm01.github.io/CV/](https://carlosm01.github.io/CV/)**
+## 🌐 Demo en línea
 
-Si prefieres ejecutarlo localmente, no es necesario instalar ningún servidor ni dependencias. Simplemente sigue estos pasos:
+👉 **[https://carlosm01.github.io/CV/](https://carlosm01.github.io/CV/)**
 
-1. Clona o descarga este repositorio.
-2. Abre el archivo `index.html` directamente en cualquier navegador web moderno (Chrome, Firefox, Safari, Edge).
+## ⚙️ Visualización local
+
+No se requiere ningún servidor ni dependencias. Sigue estos pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/CarlosM01/CV.git
+   ```
+2. Abre `index.html` directamente en cualquier navegador moderno (Chrome, Firefox, Edge, Safari).
+
+> Bootstrap y Bootstrap Icons se cargan vía CDN, por lo que se necesita conexión a internet para verlos correctamente.
 
 ## 🛠️ Personalización
 
-Si deseas modificar los estilos, colores o fuentes, puedes hacerlo editando el archivo `CSS/styles.css`. Todas las variables principales de color están definidas en la raíz (`:root`) al principio del archivo para facilitar los cambios estéticos.
+- **Estilos y colores** → edita `CSS/styles.css`. Las variables principales están definidas en `:root` al inicio del archivo.
+- **Contenido** → edita directamente `index.html`.
+- **Imágenes** → reemplaza los archivos en la carpeta `Assets/`.
