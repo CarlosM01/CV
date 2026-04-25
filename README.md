@@ -1,5 +1,11 @@
 # Currículum Vitae — Carlos Mac-Iver Reydet
 
+## 🌐 Visualización en línea
+
+👉 **[https://carlosm01.github.io/CV/](https://carlosm01.github.io/CV/)**
+
+## 📄 Descripción
+
 Currículum Vitae personal en formato web estático, diseñado para ser limpio, moderno y responsive.
 
 ## 🚀 Tecnologías
@@ -34,10 +40,6 @@ CV/
 - **Antecedentes Académicos** — Ingeniería en Ciberseguridad, Inacap Temuco (2024 – Actual).
 - **Proyectos Destacados** — Servidor de Minecraft y Blog personal.
 - **Footer** — Correo, WhatsApp, LinkedIn y GitHub.
-
-## 🌐 Demo en línea
-
-👉 **[https://carlosm01.github.io/CV/](https://carlosm01.github.io/CV/)**
 
 ## ⚙️ Visualización local
 
